@@ -1,0 +1,284 @@
+* {
+  font-family: "Segoe ui";
+}
+
+ol {
+  font-size: 20pt;
+}
+
+body {
+  font-size: 14pt;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  color: #000000;
+}
+
+section {
+  width: 100%;
+  max-width: 1080px;
+  min-width: 720px;
+  margin: auto;
+}
+
+.block1 {
+  font-family: monospace;
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  border-width: 2px;
+  border-color: rgb(240, 240, 240);
+  border-style: solid;
+  border-radius: 20px;
+  transition: 0.25s;
+  text-align: center;
+}
+.block2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-family: monospace;
+  border-width: 2px;
+  transition: 0.25s;
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  border-width: 2px;
+  border-color: rgb(240, 240, 240);
+  border-style: solid;
+  border-radius: 20px;
+  padding: 0px, 0px, 0px, 0px;
+}
+.block3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-family: monospace;
+  border-width: 2px;
+  transition: 0.25s;
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  border-width: 2px;
+  border-color: rgb(240, 240, 240);
+  border-style: solid;
+  border-radius: 20px;
+  padding: 0px, 0px, 0px, 0px;
+}
+
+.button-container {
+  width: 1080px;
+  height: 50px;
+  border-top: 2px solid black;
+}
+.Bought {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-family: monospace;
+  padding: 0px, 0px, 0px, 0px;
+}
+.Bought2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-family: monospace;
+  padding: 0px, 0px, 0px, 0px;
+  margin-top: 50px;
+}
+.iPhone {
+  font-family: monospace;
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  border-width: 2px;
+  border-color: rgb(240, 240, 240);
+  border-style: solid;
+  border-radius: 20px;
+  transition: 0.25s;
+  text-align: center;
+  width: 440px;
+}
+.buy1 {
+  font-family: monospace;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 20px;
+  transition: 0.25s;
+  text-align: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.buy2 {
+  font-family: monospace;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 20px;
+  transition: 0.25s;
+  text-align: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.Mac {
+  font-family: monospace;
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  border-width: 2px;
+  border-color: rgb(240, 240, 240);
+  border-style: solid;
+  border-radius: 20px;
+  transition: 0.25s;
+  text-align: center;
+  width: 440px;
+}
+.iPad {
+  font-family: monospace;
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  border-width: 2px;
+  border-color: rgb(240, 240, 240);
+  border-style: solid;
+  border-radius: 20px;
+  transition: 0.25s;
+  text-align: center;
+  width: 440px;
+}
+.buy3 {
+  font-family: monospace;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 20px;
+  transition: 0.25s;
+  text-align: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.AirPods {
+  font-family: monospace;
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  border-width: 2px;
+  border-color: rgb(240, 240, 240);
+  border-style: solid;
+  border-radius: 20px;
+  transition: 0.25s;
+  text-align: center;
+  width: 440px;
+}
+.AppleTV {
+  font-family: monospace;
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  border-width: 2px;
+  border-color: rgb(240, 240, 240);
+  border-style: solid;
+  border-radius: 20px;
+  transition: 0.25s;
+  text-align: center;
+  width: 440px;
+}
+.AppleWatch {
+  font-family: monospace;
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  border-width: 2px;
+  border-color: rgb(240, 240, 240);
+  border-style: solid;
+  border-radius: 20px;
+  transition: 0.25s;
+  text-align: center;
+  width: 440px;
+}
+.block1:hover {
+  border-color: rgb(240, 240, 240);
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+}
+.buy4 {
+  font-family: monospace;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 20px;
+  transition: 0.25s;
+  text-align: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.buy5 {
+  font-family: monospace;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 20px;
+  transition: 0.25s;
+  text-align: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.buy6 {
+  font-family: monospace;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 20px;
+  transition: 0.25s;
+  text-align: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.buy1:hover {
+  border-color: rgb(255, 0, 0);
+  background-color: rgb(255, 0, 0);
+  text-align: center;
+  color: #ffffff;
+}
+.buy2:hover {
+  border-color: rgb(255, 0, 0);
+  background-color: rgb(255, 0, 0);
+  text-align: center;
+  color: #ffffff;
+}
+.buy3:hover {
+  border-color: rgb(255, 0, 0);
+  background-color: rgb(255, 0, 0);
+  text-align: center;
+  color: #ffffff;
+}
+.buy4:hover {
+  border-color: rgb(255, 0, 0);
+  background-color: rgb(255, 0, 0);
+  text-align: center;
+  color: #ffffff;
+}
+.buy5:hover {
+  border-color: rgb(255, 0, 0);
+  background-color: rgb(255, 0, 0);
+  text-align: center;
+  color: #ffffff;
+}
+.buy6:hover {
+  border-color: rgb(255, 0, 0);
+  background-color: rgb(255, 0, 0);
+  text-align: center;
+  color: #ffffff;
+}
